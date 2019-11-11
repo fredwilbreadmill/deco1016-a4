@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration - Evento</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="EventoLogo.svg"></a>
+        <nav>
+            <ul>
+                <li><a title="Home" href="index.html">Home</a></li>
+                <li><a title="AboutUs" href="aboutus.html">About Us</a></li>
+                <li><a title="Events" href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <div class="hero-title">
+                    <h1>Create your Evento Account</h1>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <form id="registration-process" action="congrats.html">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name">
+
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name">
+
+                <label for="reg-email">Email</label>
+                <input type="email" name="reg-email">
+
+                <label for="reg-password">Create Password</label>
+                <input type="password" name="reg-password">
+
+                <button type="submit" class="reg-btn">Sign Up</button>
+                <button type="button" class="reg-btn" onclick="history.go(-1);">Cancel</button>
+
+            </form>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

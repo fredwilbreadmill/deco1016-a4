@@ -1,0 +1,28 @@
+	<div class="bg-modal">
+            <div class="modal-content">
+                <div class="Sign-In">
+                    <h1>Sign In</h1>
+                    <p>Test Description</p>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email">
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+                    <button class="login">Login</button>
+                </div>
+                <div class="Register">
+                    <h1>Register</h1>
+                    <p>Welcome to Jolly Meet, a place where you can easily find events you care about the most.
+                        From community gatherings to social events
+                        ranging from parties, concerts, festivals and so
+                        much more; you can rely on us to provide you
+                        with the best experiences you'll have.
+
+                        We in it for a good time, not a long time! 😉</p>
+
+                    <button class="reg-btn">Let's Get Started!</button>
+                </div>
+            </div>
+            <div class="close">+</div>
+        </div>
+
+

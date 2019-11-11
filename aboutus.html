@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us - Evento</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="EventoLogo.svg">
+        <nav>
+            <ul>
+                <li><a title="Home" href="index.html">Home</a></li>
+                <li><a title="AboutUs" class="active" href="aboutus.html">About Us</a></li>
+                <li><a title="Events" href="events.html">Events</a></li>
+                <li><a title="SignIn" id='SignIn' href="#">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="bg-modal" id="bg-modal">
+            <div class="modal-content">
+                <div class="Sign-In">
+                    <h1>Sign In</h1>
+                    <p>Test Description</p>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email">
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+                    <button class="login">Login</button>
+                </div>
+                <div class="Register">
+                    <h1>Register</h1>
+                    <p>Welcome to Evento, a place where you can easily find your quick escape.
+                        From community gatherings to social events
+                        ranging from parties, concerts, festivals and so
+                        much more; you can rely on us to provide you
+                        with the best experiences you'll have.
+                        <br /><br>
+                        We in it for a good time, not a long time! 😉</p>
+
+                    <button onclick="window.location.href = 'register.html';" class="reg-btn">Let's Get
+                        Started!</button>
+                </div>
+                <div class="close" id="close">+</div>
+            </div>
+
+        </div>
+        <section id="hero">
+            <div class="hero-text">
+                <div class="hero-title">
+                    <h1>About Evento</h1>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <p>Evento is a mock website created by Wilfred Wong for educational purposes. </p>
+
+        </section>
+    </main>
+    <footer></footer>
+</body>
+<script src="script.js"></script>
+
+</html>
